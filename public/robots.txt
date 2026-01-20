@@ -1,0 +1,10 @@
+# robots.txt for bnweke.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bnweke.dev/sitemap.xml
+
+# Disallow admin/API routes
+Disallow: /api/

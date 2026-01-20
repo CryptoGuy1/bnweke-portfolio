@@ -1,0 +1,16 @@
+{
+  "name": "Benjamin Nweke | Blockchain Researcher & Developer",
+  "short_name": "BN Portfolio",
+  "description": "PhD Candidate and Full-Stack Blockchain Developer specializing in DePIN, AI Agents, and Zero-Knowledge Cryptography.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
