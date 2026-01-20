@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, Calendar, Clock, ArrowRight } from 'lucide-react'
 
-// Sample blog posts data (in production, this would come from MDX files or a CMS)
 const blogPosts = [
   {
     slug: 'what-is-depin',
@@ -140,44 +139,6 @@ export default function BlogPage() {
               </div>
             </article>
           ))}
-        </div>
-
-        {/* How to Write Section */}
-        <div className="mt-24 max-w-3xl mx-auto">
-          <div className="card bg-gold-500/5 border-gold-500/20">
-            <h3 className="text-2xl font-bold text-dark-900 dark:text-white mb-4">
-              ✍️ How to Add Blog Posts
-            </h3>
-            <div className="space-y-4 text-dark-600 dark:text-dark-300">
-              <p>
-                Adding new blog posts is simple. Create a new MDX file in the{' '}
-                <code className="px-2 py-0.5 bg-dark-100 dark:bg-dark-800 rounded text-gold-500 font-mono text-sm">
-                  content/blog/
-                </code>{' '}
-                directory.
-              </p>
-              <div className="p-4 bg-dark-900 rounded-lg overflow-x-auto">
-                <pre className="text-sm text-dark-300 font-mono">
-{`---
-title: 'Your Post Title'
-date: '2024-01-20'
-excerpt: 'A brief description of your post.'
-image: '/images/blog/your-image.jpg'
-tags: ['Tag1', 'Tag2']
----
-
-# Your content here
-
-Write your post using **Markdown** syntax.
-You can include code blocks, images, and more!`}
-                </pre>
-              </div>
-              <p>
-                The blog system supports MDX, so you can also include React components
-                directly in your posts for interactive content.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
