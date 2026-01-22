@@ -2,7 +2,7 @@
 
 A state-of-the-art personal portfolio website built with Next.js 14, featuring a stunning Noir Gold design system, dark/light mode, smooth animations, and a built-in blog.
 
-Vercel: https://bnweke-portfolio-30zqdazp7-benjamins-projects-0bc5a52f.vercel.app/
+Vercel: https://bnweke-portfolio.vercel.app
 
 ![Portfolio Preview](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&q=80)
 
